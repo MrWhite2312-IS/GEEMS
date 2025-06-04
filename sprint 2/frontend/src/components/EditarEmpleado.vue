@@ -116,7 +116,6 @@ const route = useRoute();
 const router = useRouter();
 const userStore = useUserStore();
 
-// Obtenemos la cédula del empleado desde los parámetros de la ruta
 const cedula = route.params.cedula;
 const loading = ref(true);
 const error = ref(false);
